@@ -1,0 +1,444 @@
+body {
+    
+    
+    background: url("https://cdn.wallpapersafari.com/58/81/SGBTp8.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 2em;
+}
+/* 
+#brand:hover {
+    color: #ea1c2c;
+} */
+
+.navbar-nav a {
+    font-size: 1.25em;
+}
+
+.home {
+    display: flex;
+    flex-basis: 40%;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.home::after {
+    content: '';
+    width: 10px;
+    height: 220px;
+    background: linear-gradient(#1b263b, #7e7f83);
+    position: relative;
+    left: -26px;
+    top: -190px;
+}
+
+span {
+    color: #7e7f83;
+}
+
+
+.typing {
+    color: #7e7f83;
+}
+
+h1 {
+    color: #1b263b;
+    margin: 20px 0px 20px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+h1 span {
+    color: #7e7f83;
+}
+
+h4 {
+    font-weight: bold;
+    font-size: 35px;
+    color: #1b263b;
+}
+
+h4 span {
+    color: #7e7f83;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #1b263b;
+}
+
+h3 span {
+    color: #7e7f83;
+}
+
+
+
+/* =====================Danda and Home=========================================== */
+
+@media (max-width:825px) {
+    h1 {
+        font-size: 55px;
+
+    }
+
+    h4 {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+
+}
+
+@media(max-width:1000px) {
+    .home::after {
+        content: '';
+        width: 10px;
+        height: 220px;
+        background: linear-gradient(#1b263b, #7e7f83);
+        position: relative;
+
+        left: -25px;
+        top: -190px;
+    }
+}
+
+@media(max-width:825px) {
+    .home::after {
+        content: '';
+        width: 10px;
+        height: 220px;
+        background: linear-gradient(#1b263b, #7e7f83);
+        position: relative;
+
+        left: -20px;
+        top: -185px;
+    }
+}
+
+/* @media (max-width:569px) {
+    .home::after {
+        content: '';
+        width: 7px;
+        height: 200px;
+        background: linear-gradient(#1b263b, #7e7f83);
+        position: relative;
+
+        left: -15px;
+        top: -147px;
+    }
+} */
+
+@media (max-width:569px) {
+    .home::after {
+        content: '';
+        width: 240px;
+        height: 5px;
+        background: linear-gradient(#1b263b, #7e7f83);
+        position: relative;
+
+        left: -3px;
+        top: -3px;
+        margin-bottom: 20px;
+    }
+}
+
+
+
+@media (max-width:569px) {
+    h1 {
+        font-size: 40px;
+
+    }
+
+    h4 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 17px;
+    }
+}
+
+@media (max-width:400px) {
+    h1 {
+        font-size: 34px;
+
+    }
+
+    h4 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 17px;
+    }
+}
+
+@media (max-width:318px) {
+    h1 {
+        font-size: 30px;
+
+    }
+
+    h4 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 17px;
+    }
+}
+
+@media (max-width:280px) {
+    h1 {
+        font-size: 25px;
+
+    }
+
+    h4 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 17px;
+    }
+}
+
+
+/* ==================================Danda and Home END and Start About================================= */
+
+
+.about,
+.about p {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+
+
+}
+
+.about h1 {
+    font-weight: 500;
+}
+
+#aboutp ,#achievep,#contactp{
+    font-size: 1.2em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+
+
+
+
+
+.achievements,
+.achievements p {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+
+}
+
+.achievements {
+    margin-top: 300px;
+    margin-right: 20px;
+}
+
+
+.achievements h1 {
+    font-weight: 500;
+}
+
+
+
+.fa {
+    padding: 10px;
+    font-size: 40px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    /* background: #3B5998; */
+  color: white;
+  }
+
+  .fa:hover{
+    text-decoration: none;
+    color:black;
+    transition: transform .4s;
+    transform:scale(1.2);
+  }
+  
+
+
+
+.contact {
+    margin-top: 300px;
+}
+
+.contact,
+.contact p {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+
+
+}
+
+.contact h1 {
+    font-weight: 500;
+}
+
+#send{
+    color:white;
+}
+
+
+
+#aborder,#cborder,#abborder{
+    padding: 0.75em;
+    /* display:inline-block; */
+    /* box-sizing: border-box; */
+    border: 2px solid transparent;
+    border-radius: 15px;
+    display: inline-flex;
+    background-color: rgba(230, 232, 230, 0.7);
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    
+}
+
+#dmme{
+    margin-top: 350px;
+    margin-bottom: 150px;
+    background: rgba(230, 232, 230, 0.7);
+    padding:20px;
+    border-radius: 20px;
+    /* margin-top: 350px; */
+}
+
+#abborder,#cborder,#aborder{
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media (max-width:569px) {
+
+    .all {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .home {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about {
+        align-items: center;
+        justify-content: center;
+        
+    }
+    #headac,#headab,#headc{
+        text-align: center;
+    }
+
+    #aboutp {
+        text-align: center;
+    }
+
+    .achievements {
+        align-items: center;
+        justify-content: center;
+    }
+
+    #achievep {
+        text-align: center;
+    }
+
+    .contact {
+        align-items: center;
+        justify-content: center;
+    }
+
+    #contactp {
+        text-align: center;
+    }
+
+    .about {
+        margin-top: 50px;
+    }
+
+    .achievements {
+        margin-top: 50px;
+    }
+
+    .contact {
+        margin-top: 50px;
+    }
+
+    #dmme{
+        margin-top: 100px;
+    }
+
+
+
+
+    .about::after {
+        content: '';
+        width: 350px;
+        height: 3px;
+        background: linear-gradient(#1b263b, #7e7f83);
+        position: relative;
+
+        left: -3px;
+        top: 15px;
+        margin-bottom: 20px;
+    }
+
+    .achievements::after {
+        content: '';
+        width: 350px;
+        height: 3px;
+        background: linear-gradient(#1b263b, #7e7f83);
+        position: relative;
+
+        left: -3px;
+        top: 15px;
+        margin-bottom: 20px;
+    }
+
+    .contact::after {
+        content: '';
+        width: 350px;
+        height: 3px;
+        background: linear-gradient(#1b263b, #7e7f83);
+        position: relative;
+
+        left: -3px;
+        top: 15px;
+        margin-bottom: 20px;
+    }
+}
+
+
